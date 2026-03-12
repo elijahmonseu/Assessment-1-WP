@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>J's Gallery</title>
+
+<style>
+
+body{
+    background:#d3d3d3;
+    font-family: Georgia, "Times New Roman", serif;
+    margin:0;
+}
+
+.container{
+    width:1000px;
+    margin:auto;
+}
+
+/* Title */
+h1{
+    text-align:center;
+    font-size:60px;
+    margin-top:20px;
+}
+
+/* Navigation */
+nav{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+nav a{
+    margin:0 25px;
+    color:blue;
+    font-size:20px;
+}
+
+/* Text section */
+.text-section{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* Cow image */
+.cow{
+    float:right;
+    width:380px;
+    margin-left:20px;
+    margin-bottom:10px;
+    border:4px solid #cfcfcf;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Gallery grid */
+.gallery{
+    clear: both;
+    margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.gallery img,
+.gallery video{
+    width:50%;
+    height:auto;
+    display:block;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>J's Gallery</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Gallery</a>
+</nav>
+
+<div class="text-section">
+
+<img src="COW.jpg" class="cow">
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae eum porro accusantium molestiae hic? Tempora rem aperiam qui culpa nemo dolore, delectus inventore temporibus earum voluptate numquam, mollitia illum adipisci velit obcaecati quibusdam aliquam accusamus eum itaque explicabo at? Maxime ratione animi qui, placeat recusandae reprehenderit. Iure harum laboriosam, aspernatur distinctio expedita suscipit ut esse nemo in quos cum, corrupti quas, dolorem est accusantium aliquam!
+</p>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repudiandae repellat expedita accusantium obcaecati. Sit iure ab dolores in nulla debitis veritatis amet ut ullam animi aliquam eum porro iusto optio assumenda a quasi dolorem magnam repellat, asperiores eius dicta doloremque perferendis maiores. Impedit autem dolorem, molestiae mollitia quia harum neque blanditiis maxime dolores, iusto iste illum commodi rerum minima ea odio deserunt, fuga id.
+</p>
+
+</div>
+
+<div class="gallery">
+
+<video controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+
+<img src="img4598.jpg">
+
+<img src="img4532.jpg">
+
+<img src="photo_2018_02_01.jpg">
+
+<img src="photo_2018_02_31.jpg">
+
+<img src="johns car jpg.jpg">
+
+</div>
+
+</body>
+</html>
